@@ -1374,7 +1374,7 @@ figure {
 }
 
 img {
-    vertical-align:middle;
+    vertical-align: inherit;
     padding-right: 0px;
 }
 
@@ -1383,9 +1383,9 @@ p {
 
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
+    display:block;
     max-width: 100%;
-    height: auto
+    height:auto;
 }
 
 .img-rounded {
@@ -1499,8 +1499,8 @@ hr {
 h7 {
   font-size: 60px;
   font-family: helvetica;
-  padding-right: 180px;
-  padding-left: 150px;
+  padding-right: 50px;
+  padding-left: 20px;
   color: white;
   font-weight: bold;
 }
